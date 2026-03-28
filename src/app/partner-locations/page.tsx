@@ -398,9 +398,9 @@ export default async function PartnerLocationsPage() {
                 Partner Network Coming Soon
               </h2>
               <p className="text-mist leading-relaxed mb-8">
-                We're building our network of trusted partner locations across
-                Northeast India. Check back soon for convenient pickup points
-                and local equipment access.
+                We&apos;re building our network of trusted partner locations
+                across Northeast India. Check back soon for convenient pickup
+                points and local equipment access.
               </p>
               <Link
                 href="/contact"

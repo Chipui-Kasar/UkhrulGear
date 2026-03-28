@@ -68,7 +68,7 @@ export default function ShiruiLilyFestivalPage() {
       tip: "Landscape Compositions",
       gear: "Wide Angle Lens, Filters",
       description:
-        "Showcase the lily fields against the backdrop of Ukhrul's rolling hills.",
+        "Showcase the lily fields against the backdrop of Ukhrul&apos;s rolling hills.",
     },
     {
       tip: "Cultural Documentation",
@@ -146,9 +146,9 @@ export default function ShiruiLilyFestivalPage() {
           </RevealOnScroll>
           <RevealOnScroll delay={0.35}>
             <p className="text-cloud text-lg max-w-2xl mx-auto mt-5 leading-relaxed">
-              Experience Manipur's most sacred flower festival. Professional
-              photography equipment and camping gear for the rare Shirui Lily
-              blooming season in Ukhrul hills.
+              Experience Manipur&apos;s most sacred flower festival.
+              Professional photography equipment and camping gear for the rare
+              Shirui Lily blooming season in Ukhrul hills.
             </p>
           </RevealOnScroll>
           <RevealOnScroll delay={0.5}>

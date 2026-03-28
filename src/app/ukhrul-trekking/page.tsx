@@ -132,7 +132,7 @@ export default function UkhrulTrekkingPage() {
             <p className="text-cloud text-lg max-w-2xl mx-auto mt-5 leading-relaxed">
               Professional trekking equipment for Shirui Lily festival,
               Khangkhui cave exploration, Wuyawon camping, and all your Ukhrul
-              adventure needs. Experience Manipur's hidden gems.
+              adventure needs. Experience Manipur&apos;s hidden gems.
             </p>
           </RevealOnScroll>
           <RevealOnScroll delay={0.5}>

@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Loktak Lake Camping Equipment Rental | Manipur's Largest Lake | Summit Rentals",
+    "Loktak Lake Camping Equipment Rental | Manipur&apos;s Largest Lake | Summit Rentals",
   description:
-    "Premium camping equipment rentals for Loktak Lake, Manipur. Complete camping gear for phumdi floating islands, Keibul Lamjao National Park, and Manipur's largest freshwater lake adventure.",
+    "Premium camping equipment rentals for Loktak Lake, Manipur. Complete camping gear for phumdi floating islands, Keibul Lamjao National Park, and Manipur&apos;s largest freshwater lake adventure.",
   keywords: [
     "loktak lake camping",
     "loktak lake",
@@ -34,7 +34,7 @@ export default function LoktakLakeCampingPage() {
     {
       title: "Keibul Lamjao National Park",
       description:
-        "World's only floating national park, sanctuary for the rare Sangai (Manipur's state animal).",
+        "World&apos;s only floating national park, sanctuary for the rare Sangai (Manipur&apos;s state animal).",
       activities: ["Sangai spotting", "Bird watching", "Nature photography"],
     },
     {
@@ -187,7 +187,7 @@ export default function LoktakLakeCampingPage() {
           </RevealOnScroll>
           <RevealOnScroll delay={0.35}>
             <p className="text-cloud text-lg max-w-2xl mx-auto mt-5 leading-relaxed">
-              Experience Manipur's largest freshwater lake. Premium camping
+              Experience Manipur&apos;s largest freshwater lake. Premium camping
               equipment for phumdi floating islands, Sangai wildlife viewing,
               and authentic fishing village experiences.
             </p>
