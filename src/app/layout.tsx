@@ -46,6 +46,9 @@ export const metadata: Metadata = {
       "Equipment for Shirui Lily festival, Loktak camping, Khangkhui cave exploration. Delivered in Manipur.",
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "KrT1sWgLJCi0eyUJuGBI4aZ3Nc1PjP0Pqe1z4Jeq22I",
+  },
 };
 
 export default function RootLayout({
