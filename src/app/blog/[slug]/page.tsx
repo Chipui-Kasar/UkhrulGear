@@ -23,15 +23,16 @@ interface BlogPost {
 }
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
   const supabase = await createServerComponentClient();
   const { data: post } = await supabase
     .from("blog_posts")
     .select("title, excerpt")
-    .eq("slug", params.slug)
+    .eq("slug", resolvedParams.slug)
     .eq("published", true)
     .single();
 
@@ -48,12 +49,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPostPage({ params }: Props) {
+  const resolvedParams = await params;
   const supabase = await createServerComponentClient();
 
   const { data: post } = await supabase
     .from("blog_posts")
     .select("*")
-    .eq("slug", params.slug)
+    .eq("slug", resolvedParams.slug)
     .eq("published", true)
     .single();
 
@@ -69,7 +71,7 @@ export default async function BlogPostPage({ params }: Props) {
     )
     .eq("category", post.category)
     .eq("published", true)
-    .neq("slug", params.slug)
+    .neq("slug", resolvedParams.slug)
     .limit(3);
 
   const formatDate = (dateString: string) => {
