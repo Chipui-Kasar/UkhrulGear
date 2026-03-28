@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Premium equipment rentals for Ukhrul trekking, Shirui Lily festival, Loktak Lake camping, and Manipur tourism. Cars, bikes, cameras, camping gear delivered across Manipur.",
+  metadataBase: new URL("https://summitrentals.com"),
   keywords: [
     "ukhrul trekking",
     "shirui lily festival",
@@ -38,16 +39,29 @@ export const metadata: Metadata = {
     siteName: "Summit Rentals",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 600,
+        alt: "Summit Rentals - Premium Outdoor Equipment Rentals in Manipur",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ukhrul Trekking & Manipur Tourism Rentals",
     description:
       "Equipment for Shirui Lily festival, Loktak camping, Khangkhui cave exploration. Delivered in Manipur.",
+    images: ["/og-image.svg"],
   },
   robots: { index: true, follow: true },
   verification: {
     google: "KrT1sWgLJCi0eyUJuGBI4aZ3Nc1PjP0Pqe1z4Jeq22I",
+  },
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/apple-touch-icon.svg",
   },
 };
 

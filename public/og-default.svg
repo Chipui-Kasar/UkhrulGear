@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0d4f3c"/>
+  
+  <!-- Mountain Silhouettes -->
+  <path d="M0 450 L150 250 L300 350 L450 200 L600 300 L750 150 L900 250 L1050 180 L1200 280 L1200 630 L0 630 Z" fill="#0a3d2e"/>
+  <path d="M0 500 L200 300 L400 400 L600 250 L800 350 L1000 200 L1200 300 L1200 630 L0 630 Z" fill="#083529"/>
+  
+  <!-- Stars/Sun -->
+  <circle cx="950" cy="120" r="30" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="1050" cy="80" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="1100" cy="100" r="2" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="1120" cy="60" r="2" fill="#fbbf24" opacity="0.4"/>
+  
+  <!-- Main Content -->
+  <g transform="translate(100, 200)">
+    <!-- Logo/Brand Area -->
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#14b8a6"/>
+    <path d="M20 60 L40 20 L60 60 H20Z" fill="#0d4f3c"/>
+    <path d="M25 60 L45 30 L65 60 H25Z" fill="#0a3d2e"/>
+    
+    <!-- Main Title -->
+    <text x="100" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#ffffff">
+      Summit Rentals
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="100" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#14b8a6">
+      Premium Outdoor Equipment Rentals
+    </text>
+    
+    <!-- Description -->
+    <text x="0" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#a7f3d0">
+      Ukhrul Trekking • Shirui Lily Festival • Loktak Lake Camping
+    </text>
+    <text x="0" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#a7f3d0">
+      Professional gear delivered across Manipur for your next adventure
+    </text>
+  </g>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="580" width="1200" height="50" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#0d9488" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0f766e" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+</svg>

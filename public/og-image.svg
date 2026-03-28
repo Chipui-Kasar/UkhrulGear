@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" fill="none">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0d4f3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Mountain backdrop -->
+  <path d="M0 400 Q300 250 600 350 Q900 200 1200 300 L1200 600 L0 600 Z" fill="#14b8a6" opacity="0.1"/>
+  <path d="M0 450 Q400 300 800 380 Q1000 320 1200 350 L1200 600 L0 600 Z" fill="#14b8a6" opacity="0.15"/>
+  
+  <!-- Main content container -->
+  <g transform="translate(150, 180)">
+    <!-- Brand logo -->
+    <g>
+      <rect x="0" y="0" width="60" height="60" rx="12" fill="#14b8a6"/>
+      <path d="M15 45 L30 15 L45 45 H15Z" fill="#0d4f3c"/>
+      <circle cx="40" cy="20" r="4" fill="#fbbf24"/>
+    </g>
+    
+    <!-- Main heading -->
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white">
+      Summit Rentals
+    </text>
+    
+    <!-- Subheading -->
+    <text x="0" y="100" font-family="Arial, sans-serif" font-size="28" fill="#14b8a6">
+      Premium Outdoor Equipment Rentals in Manipur
+    </text>
+    
+    <!-- Feature bullets -->
+    <text x="0" y="150" font-family="Arial, sans-serif" font-size="20" fill="#cbd5e1">
+      🏔️ Ukhrul Trekking Equipment
+    </text>
+    <text x="0" y="185" font-family="Arial, sans-serif" font-size="20" fill="#cbd5e1">
+      🌸 Shirui Lily Festival Gear
+    </text>
+    <text x="0" y="220" font-family="Arial, sans-serif" font-size="20" fill="#cbd5e1">
+      🏕️ Loktak Lake Camping Essentials
+    </text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="1000" cy="100" r="40" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="1050" cy="150" r="20" fill="#14b8a6" opacity="0.2"/>
+  <circle cx="950" cy="80" r="15" fill="#0d9488" opacity="0.25"/>
+</svg>
