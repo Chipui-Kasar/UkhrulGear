@@ -103,26 +103,62 @@ export const SummitRentalsJsonLd = {
     itemListElement: [
       {
         "@type": "Offer",
+        price: "15",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
         itemOffered: {
           "@type": "Product",
           name: "Ukhrul Trekking Equipment",
           category: "Outdoor Gear",
+          description: "Complete trekking gear for Ukhrul hills and Shirui exploration",
+          offers: {
+            "@type": "Offer",
+            price: "15",
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+            priceValidUntil: "2024-12-31",
+            itemCondition: "https://schema.org/NewCondition"
+          }
         },
       },
       {
         "@type": "Offer",
+        price: "25",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
         itemOffered: {
           "@type": "Product",
           name: "Photography Equipment for Shirui Lily",
           category: "Camera Equipment",
+          description: "Professional camera gear for capturing Shirui Lily and wildlife photography",
+          offers: {
+            "@type": "Offer",
+            price: "25",
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+            priceValidUntil: "2024-12-31",
+            itemCondition: "https://schema.org/NewCondition"
+          }
         },
       },
       {
         "@type": "Offer",
+        price: "20",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
         itemOffered: {
           "@type": "Product",
           name: "Loktak Lake Camping Gear",
           category: "Camping Equipment",
+          description: "Complete camping setup for Loktak Lake floating island experience",
+          offers: {
+            "@type": "Offer",
+            price: "20",
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+            priceValidUntil: "2024-12-31",
+            itemCondition: "https://schema.org/NewCondition"
+          }
         },
       },
     ],
