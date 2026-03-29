@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Premium equipment rentals for Ukhrul trekking, Shirui Lily festival, Loktak Lake camping, and Manipur tourism. Cars, bikes, cameras, camping gear delivered across Manipur.",
-  metadataBase: new URL("https://summitrentals.com"),
+  metadataBase: new URL("https://ukhrulrental.vercel.app"),
   keywords: [
     "ukhrul trekking",
     "shirui lily festival",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Ukhrul Trekking & Manipur Tourism Equipment Rentals",
     description:
       "Premium equipment for Shirui Lily festival, Loktak Lake camping, Ukhrul trekking adventures. Cars, cameras, camping gear delivered across Manipur.",
-    url: "https://summitrentals.com",
+    url: "https://ukhrulrental.vercel.app",
     siteName: "Summit Rentals",
     locale: "en_US",
     type: "website",

@@ -14,6 +14,6 @@ export default function robots(): MetadataRoute.Robots {
       ],
       disallow: ["/auth/", "/api/"],
     },
-    sitemap: "https://summitrentals.com/sitemap.xml",
+    sitemap: "https://ukhrulrental.vercel.app/sitemap.xml",
   };
 }
