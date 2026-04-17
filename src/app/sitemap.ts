@@ -1,5 +1,7 @@
-import { createServerComponentClient } from "@/lib/supabase-server";
+import { createClient } from "@supabase/supabase-js";
 import { MetadataRoute } from "next";
+
+export const revalidate = 3600; // Cache sitemap for 1 hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://ukhrulrental.vercel.app";
@@ -53,7 +55,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Dynamic gear pages
   let gearPages: MetadataRoute.Sitemap = [];
   try {
-    const supabase = await createServerComponentClient();
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+    const supabase = createClient(supabaseUrl, supabaseKey);
     const { data } = await supabase.from("gear").select("slug, created_at");
     if (data) {
       gearPages = data.map((item) => ({
